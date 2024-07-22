@@ -1,0 +1,220 @@
+/* {Css for home page} */
+.homediv {
+    width: 100%;
+    height: 100vh;
+    overflow-y: hidden;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+}
+
+.transparentdiv {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 0;
+    align-items: center;
+}
+
+.widthdiv {
+    width: 32%;
+}
+
+.contentdiv {
+    width: 47%;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 40px;
+}
+
+.contentdivblur {
+    width: 47%;
+    display: flex;
+    opacity: 0.5;
+    flex-direction: column;
+    padding-bottom: 40px;
+}
+
+.posts {
+    overflow-y: scroll;
+}
+
+.ht1 {
+    font-size: 28px;
+    line-height: 33.89px;
+    font-weight: 500;
+    color: #C5C7CA;
+    margin-top: 100px;
+    margin-bottom: 10px;
+}
+
+.ht2 {
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #7F8084;
+    width: 83%;
+    margin-bottom: 20px;
+}
+
+.contentpostdiv {
+    height: 223px;
+    width: 100%;
+    border: 2px solid #35373B;
+    background: #27292D;
+    border-radius: 8px;
+    padding: 20px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.ht3 {
+    font-size: 18px;
+    line-height: 21.78px;
+    font-weight: 500;
+    margin-bottom: 10px;
+    color: #C5C7CA;
+    margin-top: 0;
+
+}
+
+.pbtndiv {
+    display: flex;
+    justify-content: end;
+}
+
+.postbtn {
+    background: #4A96FF;
+    font-size: 16px;
+    line-height: 19.36px;
+    height: 43px;
+    width: 111px;
+    font-weight: 500;
+    color: #FFFFFF;
+    border-radius: 4px;
+}
+
+.inputbox {
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+    display: flex;
+    margin-bottom: 10px;
+    align-items: center;
+    border-radius: 8px;
+    background-color: #191920;
+
+    img {
+        height: 48px;
+        width: 48px;
+        margin-right: 20px;
+    }
+
+    input {
+        font-size: 16px;
+        line-height: 16px;
+        color: #7F8084;
+        height: 48px;
+        background-color: transparent;
+        width: 80%;
+        border: none;
+        font-weight: 400;
+    }
+}
+
+.postdiv {
+    height: 250px;
+    width: 100%;
+    border: 2px solid #35373B;
+    background: #27292D;
+    border-radius: 8px;
+    padding: 20px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+.postmain {
+    margin-top: 0;
+}
+
+.postbox {
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+    display: flex;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    align-items: flex-start;
+    border-radius: 8px;
+    background-color: #191920;
+
+    img {
+        height: 48px;
+        width: 48px;
+        margin-right: 20px;
+    }
+
+    p {
+        font-size: 16px;
+        line-height: 24px;
+        border: none;
+        color: #7F8084;
+        font-weight: 400;
+    }
+}
+
+.commentdiv {
+    display: flex;
+    justify-content: flex-start;
+    font-size: 14px;
+    line-height: 16.94px;
+    font-weight: 500;
+    color: #7F8084;
+}
+
+.profilediv {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+
+    p {
+        margin-top: 0;
+    }
+}
+
+.ht4 {
+    font-size: 18px;
+    line-height: 21.78px;
+    font-weight: 500;
+    margin-bottom: 10px;
+    color: #C5C7CA;
+    margin-top: 0;
+
+}
+
+.ht5 {
+
+    font-size: 14px;
+    line-height: 16.4px;
+    font-weight: 500;
+    margin-bottom: 0px;
+    color: #7F8084;
+    margin-top: 0;
+
+}
+
+.idiv {
+    margin-right: 20px;
+}
