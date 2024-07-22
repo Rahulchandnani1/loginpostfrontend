@@ -5,6 +5,8 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 ## Available Scripts
 
 In the project directory, you can run:
+### `npm i` 
+to install all the dependencies and then run below command to start 
 
 ### `npm start`
 
@@ -13,6 +15,16 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
+
+
+Steps to interact:
+1 First page have login page and if user click on register in login page, register box will come
+2 If user name, email have length greater than or equal to 3 and password length greater or equal to 8 
+  then user login or register and come to home page.
+3 In home page 2 post already come then user click on input and write then after click on post button then post get added in page.
+4 If user directly come on home page then user can't post without login a login button will be shown.
+5 Then when we click on login a popup will be shown if user enter details and click on login or register or cross on popup then user get logged in.
+6 After that user can post.
 
 ### `npm test`
 
