@@ -25,6 +25,7 @@ Steps to interact:
 4 If user directly come on home page then user can't post without login a login button will be shown.
 5 Then when we click on login a popup will be shown if user enter details and click on login or register or cross on popup then user get logged in.
 6 After that user can post.
+7 The site is responsive for more than 1000px.
 
 ### `npm test`
 
